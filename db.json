@@ -1,0 +1,278 @@
+{
+    "furniture":
+    [
+        {
+            "id":1,
+            "title":"Gather Sofa",
+            "category":"sofa",
+            "price":1849.00,
+            "image":"https://cb.scene7.com/is/image/Crate/Gather88inSofaICSOSSF20_3D_1x1/$web_pdp_main_carousel_high$/200820160640/gather-sofa.jpg"
+        },
+        {
+            "id":2,
+            "title":"Gather 3-Piece L-Shaped Bench Sectional Sofa",
+            "category":"sofa",
+            "price":4477.00,
+            "image":"https://cb.scene7.com/is/image/Crate/GatherPB3LASfCrnRASf3QSSF21_3D/$web_plp_card_hires$/210623154605/gather-petite-3pc-sectional.jpg"
+        },
+        {
+            "id":3,
+            "title":"Wells Leather 4-Piece U-Shaped Sectional Sofa",
+            "category":"sofa",
+            "price":9796.00,
+            "image":"https://cb.scene7.com/is/image/Crate/Wells4LASfCrnALSRAChsCyn3QSSF21/$web_plp_card_hires$/210728134800/wells-leather-4-piece-u-shaped-sectional.jpg"
+        },
+        {
+            "id":4,
+            "title":"Wells Chair with Natural Leg Finish",
+            "category":"chair",
+            "price":1099.00,
+            "image":"https://cb.scene7.com/is/image/Crate/WellsFChairNGSOSSF21_3D/$web_plp_card_hires$/220823173358/wells-chair-with-natural-leg-finish.jpg"
+        },
+        {
+            "id":5,
+            "title":"Infiniti Curve Back Sofa",
+            "category":"sofa",
+            "price":2099.00,
+            "image":"https://cb.scene7.com/is/image/Crate/InfinitiSofaOatSOSSF20_3D/$web_plp_card_hires$/210315122449/infiniti-curve-back-sofa.jpg"
+        },
+        {
+            "id":6,
+            "title":"Infiniti Swivel Accent Chair",
+            "category":"chair",
+            "price":1099.00,
+            "image":"https://cb.scene7.com/is/image/Crate/InfinitiSwvlChairOatSOSSF20_3D/$web_pdp_main_carousel_high$/210315122449/infiniti-swivel-chair.jpg"
+        },
+        {
+            "id":7,
+            "title":"Haldeman Pine Wood Desk by Leanne Ford",
+            "category":"table",
+            "price":1299.00,
+            "image":"https://cb.scene7.com/is/image/Crate/HaldemanDeskSOSSS22/$web_pdp_main_carousel_high$/220309170951/haldeman-desk.jpg"
+        },
+        {
+            "id":8,
+            "title":"Seb Oak Wood Desk/Dining Table",
+            "category":"table",
+            "price":2199.00,
+            "image":"https://cb.scene7.com/is/image/Crate/SebWorkTableAVSSF22/$web_plp_card$/230118084554/SebWorkTableAVSSF22.jpg"
+        },
+        {
+            "id":9,
+            "title":"Caterina White Boucle Upholstered Office Chair with Dark Pewter Base",
+            "category":"chair",
+            "price":599.00,
+            "image":"https://cb.scene7.com/is/image/Crate/CaterinaOfficeChairAVSSF22/$web_plp_card$/230118084554/CaterinaOfficeChairAVSSF22.jpg"
+        },
+        {
+            "id":10,
+            "title":"Ripple Navy Office Chair with Brass Base",
+            "category":"chair",
+            "price":499.00,
+            "image":"https://cb.scene7.com/is/image/Crate/RippleNavyOfficeChrBrssAVSSS22/$web_plp_card$/230118084554/RippleNavyOfficeChrBrssAVSSS22.jpg"
+        },
+        {
+            "id":11,
+            "title":"Calypso Large Two-Toned Wood Storage Cabinet",
+            "category":"storage",
+            "price":3199.00,
+            "image":"https://cb.scene7.com/is/image/Crate/Calypso80in2TnCabChrNtAV3QSSF22/$web_plp_card$/230118041732/Calypso80in2TnCabChrNtAV3QSSF22.jpg"
+        },
+        {
+            "id":12,
+            "title":"Libby Natural Mango Wood Storage Cabinet with Doors",
+            "category":"storage",
+            "price":2799.00,
+            "image":"https://cb.scene7.com/is/image/Crate/LibbyCabinetNatSOSSS22/$web_plp_card_hires$/220405163351/libby-natural-mango-wood-storage-cabinet-with-doors.jpg"
+        },
+        {
+            "id":13,
+            "title":"Cameo 4-Piece Modular Grey Glass Door Wall Unit",
+            "category":"storage",
+            "price":5996.00,
+            "image":"https://cb.scene7.com/is/image/Crate/CameoGrey2PcGlassDrWStrBkcsSHS18_1x1/$web_plp_card_hires$/220913134801/cameo-4-piece-modular-grey-glass-door-wall-unit.jpg"
+        },
+        {
+            "id":14,
+            "title":"Marin Shiitake Bar Cabinet",
+            "category":"storage",
+            "price":1799.00,
+            "image":"https://cb.scene7.com/is/image/Crate/MarinBarCabShiitakeAV1F15/$web_pdp_main_carousel_high$/230118085211/MarinBarCabShiitakeAV1F15.jpg"
+        },
+        {
+            "id":15,
+            "title":"Mota Burl Wood Bar Cabinet",
+            "category":"storage",
+            "price":2299.00,
+            "image":"https://cb.scene7.com/is/image/Crate/MotaBarCabinetAVSOSSF22/$web_pdp_main_carousel_high$/230118070112/MotaBarCabinetAVSOSSF22.jpg"
+        },
+        {
+            "id":16,
+            "title":"Outdoor Pool Table with Dining Top and Pool Accessories",
+            "category":"table",
+            "price":8999.00,
+            "image":"https://cb.scene7.com/is/image/Crate/OutdoorPoolTableSOSSS22/$web_pdp_main_carousel_high$/220127103522/outdoor-pool-table-with-dining-top-and-pool-accessories.jpg"
+        },
+        {
+            "id":17,
+            "title":"Air Hockey Table",
+            "category":"table",
+            "price":1499.00,
+            "image":"https://cb.scene7.com/is/image/Crate/AirHockeyTableSOSSF20/$web_pdp_main_carousel_high$/200626090827/air-hockey-table.jpg"
+        },
+        {
+            "id":18,
+            "title":"Lakin 61' White Oak Wood Extendable Dining Table",
+            "category":"table",
+            "price":1999.00,
+            "image":"https://cb.scene7.com/is/image/Crate/LakinAlmond61inExtTbl3QSSF22/$web_pdp_main_carousel_high$/220413132606/lakin-61-almond-oak-wood-extendable-dining-table.jpg"
+        },
+        {
+            "id":19,
+            "title":"Libby Cane Dining Chair",
+            "category":"chair",
+            "price":399.00,
+            "image":"https://cb.scene7.com/is/image/Crate/LibbyCaneDiningChairSHS20_1x1/$web_pdp_main_carousel_high$/200219114402/libby-cane-dining-chair.jpg"
+        },
+        {
+            "id":20,
+            "title":"Curran Carmel Dining Chair",
+            "category":"chair",
+            "price":349.00,
+            "image":"https://cb.scene7.com/is/image/Crate/CurranChairCarmelSSS20_1x1/$web_pdp_main_carousel_high$/200402124859/curran-carmel-dining-chair.jpg"
+        }
+    ],
+
+    "outdoor":
+    [
+        {
+            "id":1,
+            "title":"Dune Black Outdoor Sofa with Black Cushions",
+            "category":"sofa",
+            "price":1399.00,
+            "image":"https://cb.scene7.com/is/image/Crate/DuneBODSofaBlkCshSOSSS22_3D/$web_pdp_main_carousel_high$/220216165834/dune-black-outdoor-sofa-with-black-cushions.jpg"
+        },
+        {
+            "id":2,
+            "title":"Outdoor Furniture Set: Grotta Wicker Sofa, Lounge Chair and Coffee Table",
+            "category":"sofa",
+            "price":1499.00,
+            "image":"https://cb.scene7.com/is/image/Crate/cb_dPLP_20220328_grotta/$web_pdp_main_carousel_high$/220401130336/grotta-lounge.jpg"
+        },
+        {
+            "id":3,
+            "title":"Regatta Grey Wash Teak Wood Outdoor Sofa",
+            "category":"sofa",
+            "price":1249.00,
+            "image":"https://cb.scene7.com/is/image/Crate/RegattaGryWshSofa3QSSS21/$web_pdp_main_carousel_high$/210119141018/regatta-grey-wash-sofa.jpg"
+        },
+        {
+            "id":4,
+            "title":"Outdoor Dining Set: Zuma Dining Chair, Abaco Dining Table and Regatta Dining Bench",
+            "category":"table",
+            "price":1499.00,
+            "image":"https://cb.scene7.com/is/image/Crate/cb_dPLP_20220328_zuma-abaco-regatta/$web_pdp_main_carousel_high$/220401130321/outdoor-dining-set-zuma-dining-chair-abaco-dining-table-and-regatta-dining-bench.jpg"
+        },
+        {
+            "id":5,
+            "title":"Outdoor Dining Set: Abaco Dining Table and Dining Chair",
+            "category":"table",
+            "price":1499.00,
+            "image":"https://cb.scene7.com/is/image/Crate/CaymanDiningCHS21_V1_1x1/$web_pdp_main_carousel_high$/210216125855/abaco-dining-table-and-abaco-outdoor-dining-chair.jpg"
+        },
+        {
+            "id":6,
+            "title":"Dune Round Outdoor Dining Table with Painted Charcoal Glass",
+            "category":"table",
+            "price":999.00,
+            "image":"https://cb.scene7.com/is/image/Crate/DuneRndTblPntGlsCharSOSSS21_3D/$web_pdp_main_carousel_high$/210303135522/dune-round-dining-table-with-painted-charcoal-glass.jpg"
+        },
+        {
+            "id":7,
+            "title":"Stacks Black Outdoor Melamine Serving Bowl",
+            "category":"accessories",
+            "price":6.97,
+            "image":"https://cb.scene7.com/is/image/Crate/StacksBlackServeBowlSSS22/$web_pdp_main_carousel_high$/220118103042/stacks-black-melamine-serving-bowl.jpg"
+        },
+        {
+            "id":8,
+            "title":"Sora Acrylic Pitcher",
+            "category":"accessories",
+            "price":24.95,
+            "image":"https://cb.scene7.com/is/image/Crate/SoraAcrylicPitcher140ozSHS16/$web_pdp_main_carousel_high$/220913132912/sora-acrylic-pitcher.jpg"
+        },
+        {
+            "id":9,
+            "title":"Galvanized Beverage Tub with Black Stand",
+            "category":"accessories",
+            "price":89.90,
+            "image":"https://cb.scene7.com/is/image/Crate/GalvanizedBevTubWBlackStandSHS19/$web_pdp_main_carousel_high$/190411135050/galvanized-beverage-tub-w-black-stand.jpg"
+        },
+        {
+            "id":10,
+            "title":"GWeber ® Performer Deluxe Black Outdoor Charcoal Grill",
+            "category":"accessories",
+            "price":549.95,
+            "image":"https://cb.scene7.com/is/image/Crate/CB_SU22_OD_14_304_Hor_Vert-007/$web_pdp_main_carousel_high$/230118094549/CB_SU22_OD_14_304_Hor_Vert-007.jpg"
+        },
+        {
+            "id":11,
+            "title":"Crate & Barrel Outdoor Square Fry Pan",
+            "category":"accessories",
+            "price":49.95,
+            "image":"https://cb.scene7.com/is/image/Crate/CrateKitchenBBQSqFryPanSSS22/$web_pdp_main_carousel_high$/220120102631/cratekitchen-bbq-square-fry-pan.jpg"
+        },
+        {
+            "id":12,
+            "title":"KettlePizza™ Deluxe USA Outdoor Pizza Oven Kit",
+            "category":"accessories",
+            "price":174.95,
+            "image":"https://cb.scene7.com/is/image/Crate/KettlePizzaDeluxeUSASetSHF16_VAR20/$web_pdp_main_carousel_high$/200514144305/kettlepizza-deluxe-usa-outdoor-pizza-oven-kit.jpg"
+        },
+        {
+            "id":13,
+            "title":"Alfresco II Grey Outdoor Chaise Lounge with Sapphire Sunbrella ® Cushion",
+            "category":"chair",
+            "price":858.00,
+            "image":"https://cb.scene7.com/is/image/Crate/AlfrescoIIChsLgGSpCs3QSSS21_3D/$web_pdp_main_carousel_high$/210222172446/alfresco-ii-grey-chaise-lounge-with-sapphire-sunbrella-cushion.jpg"
+        },
+        {
+            "id":14,
+            "title":"Dundee White Round Indoor/Outdoor Planter with Short Stand",
+            "category":"accessories",
+            "price":99.95,
+            "image":"https://cb.scene7.com/is/image/Crate/DundeeWhtPlntrsWStndsFSSS22/$web_pdp_main_carousel_high$/220216175600/dundee-white-floor-indoor-outdoor-planters.jpg"
+        },
+        {
+            "id":15,
+            "title":"TerraFlame ® Geo Antique White Outdoor Tabletop Fire Bowl",
+            "category":"accessories",
+            "price":99.99,
+            "image":"https://cb.scene7.com/is/image/Crate/TerraFlmGeoAntFrbwlAVSHF22_VND/$web_pdp_main_carousel_high$/221026180626/terra-flame-geo-antique-white-outdoor-tabletop-fire-bowl.jpg"
+        }
+    ],
+    "kitchen":
+    [
+        {
+            "id":1,
+            "title":"GE Profile ™ Carbon Black 7-Quart Smart Mixer with Auto Sense",
+            "category":"electronics",
+            "price":999.95,
+            "image":"https://cb.scene7.com/is/image/Crate/GEProfile7qSmMxrWAtSnCBSSF22/$web_plp_card_hires$/221118104237/ge-profile-carbon-black-7-quart-smart-mixer-with-auto-sense.jpg"
+        },
+        {
+            "id":2,
+            "title":"De'Longhi ® Digital Combi Espresso Machine",
+            "category":"electronics",
+            "price":299.95,
+            "image":"https://cb.scene7.com/is/image/Crate/DelonghiDgtlCombiMchSSF20_VND/$web_pdp_main_carousel_high$/200521124435/delonghi-digi-combi-cof-esp-makr.jpg"
+        },
+        {
+            "id":3,
+            "title":"Fellow Stagg EKG Stone Blue Electric Pour-Over Tea Kettle with Maple Handle",
+            "category":"electronics",
+            "price":195.00,
+            "image":"https://cb.scene7.com/is/image/Crate/FellowSEKGElPOKStBlMHSSS22_VND/$web_pdp_main_carousel_high$/220124163234/fellow-stagg-ekg-stone-blue-electric-pour-over-kettle-with-maple-handle.jpg"
+        }
+    ]
+}
