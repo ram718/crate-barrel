@@ -273,6 +273,13 @@
             "category":"electronics",
             "price":195.00,
             "image":"https://cb.scene7.com/is/image/Crate/FellowSEKGElPOKStBlMHSSS22_VND/$web_pdp_main_carousel_high$/220124163234/fellow-stagg-ekg-stone-blue-electric-pour-over-kettle-with-maple-handle.jpg"
+        },
+        {
+            "id":4,
+            "title":"Breville ® Smart Oven ® Black Truffle Air Fryer",
+            "category":"electronics",
+            "price":349.95,
+            "image":"https://cb.scene7.com/is/image/Crate/BrevilleSmtOvArFyBTfSSF20_VND/$web_pdp_main_carousel_high$/200817131437/breville-black-truffle-smart-air-fryer.jpg"
         }
     ]
 }
