@@ -1,5 +1,6 @@
 import {Image,Text} from "@chakra-ui/react";
 import {Link,NavLink} from "react-router-dom"
+import Footer from "../components/Footer";
 
 export default function Home(){
     return <div>
@@ -76,6 +77,10 @@ export default function Home(){
             <Text style={{margin:"18% 70% 0 0"}} fontWeight="semibold">Crate and Barrel History</Text>
             <Text style={{margin:"5px 0 0 5.4%",width:"80%"}}>With over 100 stores in North America and franchise partners in 9 countries, Crate & Barrel, Crate & Kids and CB2 are the international destination</Text>
             <Text style={{margin:"0 0 0 -39%"}}>for lasting, modern <Link to="/products">furniture</Link>, textiles, <Link to="/products">kitchen</Link>, <Link to="/products">tableware</Link> and <Link to="/products">home decor</Link>. <NavLink style={{textDecoration:"underline"}} to="/">See More →</NavLink></Text>
+        </div>
+        <br />
+        <div style={{backgroundColor:"black",color:"whitesmoke"}}>
+            <Footer/>
         </div>
     </div>
 }
