@@ -26,7 +26,7 @@ export default function Navbar(){
       </div>
 
       <div>
-        <img src="https://i.ibb.co/PQSC3Lz/crate.png" alt="logo" width="100px"/>
+        <Link to="/"><img src="https://i.ibb.co/PQSC3Lz/crate.png" alt="logo" width="100px"/></Link>
       </div>
 
       {isAuth ? <div style={{display:"flex",alignItems:"center",marginRight:"-10%"}}>
