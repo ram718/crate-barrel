@@ -12,7 +12,7 @@ import {
   } from '@chakra-ui/react';
   import {useState,useEffect,useContext} from "react";
   import {AuthContext} from "../Context/AuthContext"
-  import {Link} from "react-router-dom";
+  import {Navigate,Link} from "react-router-dom";
 
   function Toast() {
     const toast = useToast()
@@ -47,18 +47,25 @@ import {
             body:JSON.stringify({email,password})
         })
         .then((res) => res.json)
-        .then((res) => loginUser(Toast))
+        .then((res) => loginUser({Toast}))
         .catch((err) => console.log(err))
     }
     if(isAuth){
-
-
-        <Link to="/"></Link>
+        return <Navigate to="/"></Navigate>
     }
     
 
     return (
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+        <Flex flex={1}>
+          <Image
+            alt={'Login Image'}
+            objectFit={'cover'}
+            src={
+              'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
+            }
+          />
+        </Flex>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={4} w={'full'} maxW={'md'}>
             <Heading fontSize={'2xl'}>Sign in to your account</Heading>
@@ -76,22 +83,13 @@ import {
                 align={'start'}
                 justify={'space-between'}>
                 <Checkbox>Remember me</Checkbox>
-                <Link color={'blue.500'}>Forgot password?</Link>
+                <Link color={'black'}>Forgot password?</Link>
               </Stack>
-              <Button colorScheme={'blue'} variant={'solid'} onClick={handleLogin}>
+              <Button colorScheme={'black'} variant={'solid'} style={{color:"white",backgroundColor:"black"}} onClick={handleLogin}>
                 Sign in
               </Button>
             </Stack>
           </Stack>
-        </Flex>
-        <Flex flex={1}>
-          <Image
-            alt={'Login Image'}
-            objectFit={'cover'}
-            src={
-              'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80'
-            }
-          />
         </Flex>
       </Stack>
     );

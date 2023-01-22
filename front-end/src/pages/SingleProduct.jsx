@@ -21,6 +21,13 @@ import {
   
   
   export default function SingleProduct({id,title,category,price,image}) {
+
+    
+    const handleAddToCart = () => {
+
+    }
+
+
     return (
       <Container maxW={'7xl'}>
         <SimpleGrid
@@ -160,6 +167,7 @@ import {
               bg={useColorModeValue('gray.900', 'gray.50')}
               color={useColorModeValue('white', 'gray.900')}
               textTransform={'uppercase'}
+              onClick={handleAddToCart}
               _hover={{
                 transform: 'translateY(2px)',
                 boxShadow: 'lg',
