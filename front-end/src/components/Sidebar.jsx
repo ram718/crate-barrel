@@ -27,14 +27,14 @@ import { ReactText } from 'react';
 
 
 const LinkItems = [
-  { name: 'Home', icon: FiHome },
+  { name: 'All Products', icon: FiHome },
   { name: 'Trending', icon: FiTrendingUp },
-  { name: 'Explore', icon: FiCompass },
-  { name: 'Favourites', icon: FiStar },
-  { name: 'Settings', icon: FiSettings },
+  { name: 'Indoor', icon:  FiHome},
+  { name: 'Outdoor', icon: FiStar },
+  { name: 'Accessories', icon: FiCompass },
 ];
 
-export default function Sidebar() {
+export default function SimpleSidebar({ children }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box minH="100vh" bg={useColorModeValue('gray.100', 'gray.900')}>
@@ -64,7 +64,8 @@ export default function Sidebar() {
 }
 
 
-const SidebarContent = () => {
+
+const SidebarContent = ({ onClose, ...rest }) => {
   return (
     <Box
       bg={useColorModeValue('white', 'gray.900')}
@@ -90,7 +91,7 @@ const SidebarContent = () => {
 };
 
 
-const NavItem = () => {
+const NavItem = ({ icon, children, ...rest }) => {
   return (
     <Link href="#" style={{ textDecoration: 'none' }} _focus={{ boxShadow: 'none' }}>
       <Flex
@@ -121,7 +122,8 @@ const NavItem = () => {
   );
 };
 
-const MobileNav = () => {
+
+const MobileNav = ({ onOpen, ...rest }) => {
   return (
     <Flex
       ml={{ base: 0, md: 60 }}

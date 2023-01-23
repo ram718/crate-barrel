@@ -141,7 +141,7 @@ export default function Footer() {
                 <Link href={'#'}>Product Recalls</Link>
                 <Link href={'#'}>Accessibility Statement</Link>
                 <Link href={'#'}>CA Supply Chains Act</Link>
-                <Link href={'#'}>Do Not Sell My Personal Information</Link>
+                {/* <Link href={'#'}>Do Not Sell My Personal Information</Link> */}
                 <Link href={'#'}>Cookie Settings</Link>
             </Stack>
 
