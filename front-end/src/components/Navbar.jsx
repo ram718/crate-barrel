@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
 import {Button,Text} from "@chakra-ui/react";
-import {useContext} from "react";
+import {useContext,useEffect,useState} from "react";
 import { AuthContext } from "../Context/AuthContext";
 import {BsCart2} from "react-icons/bs"
 
 export default function Navbar(){
     const {isAuth,logoutUser} = useContext(AuthContext);
+    const [cartItem,setCartItem] = useState(0)
 
-    const cartItem = JSON.parse(localStorage.getItem("cart"))
+    useEffect(() => {
+      setCartItem(JSON.parse(localStorage.getItem("cart")))
+    },[cartItem])
+
+    
 
     const Links = [
       {path:"/",title:"Home"},

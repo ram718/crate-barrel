@@ -16,26 +16,27 @@ import {
 } from '@chakra-ui/react';
 import {
   FiHome,
-  FiTrendingUp,
   FiCompass,
   FiStar,
-  FiSettings,
   FiMenu,
+  FiSearch
 } from 'react-icons/fi';
+import {CgSmartHomeLight} from "react-icons/cg"
 import { IconType } from 'react-icons';
-import { ReactText } from 'react';
+import { useState } from 'react';
 
 
 
 const LinkItems = [
-  { name: 'All Products', icon: FiHome },
+  // { name: 'All Products',term:"AllProducts" },
   // { name: 'Trending', icon: FiTrendingUp },
-  { name: 'Indoor', icon:  FiHome},
-  { name: 'Outdoor', icon: FiStar },
-  { name: 'Accessories', icon: FiCompass },
+  { name: 'Indoor', icon:  FiHome,term:"furniture" },
+  {name:"Lighting",icon:CgSmartHomeLight,term:"lighting"},
+  { name: 'Outdoor', icon: FiStar,term:"outdoor"  },
+  { name: 'Accessories', icon: FiCompass ,term:"kitchen" },
 ];
 
-export default function Sidebar({ children,handleClick }) {
+export default function Sidebar({ children,handleClick,handleSearch,handleOrder }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box minH="100vh" bg={useColorModeValue('gray.100', 'gray.900')}>
@@ -43,6 +44,8 @@ export default function Sidebar({ children,handleClick }) {
         onClose={() => onClose}
         display={{ base: 'none', md: 'block' }}
         handleClick={handleClick}
+        handleSearch={handleSearch}
+        handleOrder={handleOrder}
       />
       <Drawer
         autoFocus={false}
@@ -67,7 +70,10 @@ export default function Sidebar({ children,handleClick }) {
 
 
 
-const SidebarContent = ({ handleClick,onClose, ...rest }) => {
+const SidebarContent = ({ handleOrder,handleSearch,handleClick,onClose, ...rest }) => {
+  const [search,setSearch] = useState("");
+  
+
   return (
     <Box
       bg={useColorModeValue('white', 'gray.900')}
@@ -77,14 +83,18 @@ const SidebarContent = ({ handleClick,onClose, ...rest }) => {
       pos="absolute"
       h="full"
       {...rest}>
-      {/* <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
-        <Image src="https://i.ibb.co/PQSC3Lz/crate.png" alt="logo" width="60%"></Image> */}
+      <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
+        <input type="text" placeholder='Search' onChange={(e) => setSearch(e.target.value)} style={{padding:"2%"}}/>
+        <button onClick={() => handleSearch(search)} style={{marginLeft:"5px"}}><FiSearch/></button>
         {/* <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} /> */}
-      {/* </Flex> */}
+      </Flex>
+      <Button onClick={() => handleOrder("asc")} variant={'ghost'} colorScheme={"blackAlpha.500"}>Low to High</Button>
+      <Button onClick={() => handleOrder("desc")} variant={'ghost'} colorScheme={"blackAlpha.500"}>High to Low</Button>
+      <br />
       <br />
       {LinkItems.map((link) => (
         <NavItem key={link.name} icon={link.icon}>
-          <Button onClick={() => handleClick(link.name)} variant={'ghost'} colorScheme={'blackAlpha.500'}>{link.name}</Button>
+          <Button onClick={() => handleClick(link.term)} variant={'ghost'} colorScheme={'blackAlpha.500'}>{link.name}</Button>
         </NavItem>
       ))}
     </Box>
