@@ -269,17 +269,237 @@
         },
         {
             "id":3,
-            "title":"Fellow Stagg EKG Stone Blue Electric Pour-Over Tea Kettle with Maple Handle",
-            "category":"electronics",
-            "price":195.00,
-            "image":"https://cb.scene7.com/is/image/Crate/FellowSEKGElPOKStBlMHSSS22_VND/$web_pdp_main_carousel_high$/220124163234/fellow-stagg-ekg-stone-blue-electric-pour-over-kettle-with-maple-handle.jpg"
-        },
-        {
-            "id":4,
             "title":"Breville ® Smart Oven ® Black Truffle Air Fryer",
             "category":"electronics",
             "price":349.95,
             "image":"https://cb.scene7.com/is/image/Crate/BrevilleSmtOvArFyBTfSSF20_VND/$web_pdp_main_carousel_high$/200817131437/breville-black-truffle-smart-air-fryer.jpg"
+        },
+        {
+            "id":4,
+            "title":"Vitamix ® Ascent A3500 Brushed Stainless Steel Blender",
+            "category":"electronics",
+            "price":649.95,
+            "image":"https://cb.scene7.com/is/image/Crate/VitamixA3500AscentSrsBlndrSHF17/$web_pdp_main_carousel_high$/220913134058/vitamix-a3500-blender-brushed-ss.jpg"
+        },
+        {
+            "id":5,
+            "title":"Breville ® Juice Fountain ® Cold Juicer",
+            "category":"electronics",
+            "price":159.95,
+            "image":"https://cb.scene7.com/is/image/Crate/BrevilleJuiceFountainColdSHF16/$web_pdp_main_carousel_high$/220913133740/breville-juice-fountain-cold-juicer.jpg"
+        },
+        {
+            "id":6,
+            "title":"Breville ® Sous Chef ® Peel & Dice 16-Cup Food Processor",
+            "category":"electronics",
+            "price":549.95,
+            "image":"https://cb.scene7.com/is/image/Crate/BrevilleSousChf16PeelNDiceSHF18/$web_pdp_main_carousel_high$/220913143715/breville-sous-chef-16-cup-peel-and-dice-food-processor.jpg"
+        },
+        {
+            "id":7,
+            "title":"Cuisinart ® Elemental Silver 8-Cup Food Processor",
+            "category":"electronics",
+            "price":99.95,
+            "image":"https://cb.scene7.com/is/image/Crate/CuisinartFoodPrcsr8cpSSF20/$web_pdp_main_carousel_high$/201029182254/cuisinart-8-cup-food-processor.jpg"
+        },
+        {
+            "id":8,
+            "title":"Cuisinart® Custom 14™ Black Stainless Steel 14-Cup Food Processor",
+            "category":"electronics",
+            "price":249.95,
+            "image":"https://cb.scene7.com/is/image/Crate/CuisFoodPrcssr14cpBlkSSSHF18/$web_pdp_main_carousel_high$/220913143710/cuisinart-food-processor-14-cup-black-stainless.jpg"
+        },
+        {
+            "id":9,
+            "title":"Philips Essential Digital XL Basket AirFryer",
+            "category":"electronics",
+            "price":179.95,
+            "image":"https://cb.scene7.com/is/image/Crate/PhilipsEssDgXLArFrySSF21_VND/$web_pdp_main_carousel_high$/210923102721/philips-essentials-digital-xl-airfryer.jpg"
+        },
+        {
+            "id":10,
+            "title":"Instant™ Vortex™ Plus 8-Quart Dual Basket Air Fryer with ClearCook",
+            "category":"electronics",
+            "price":229.95,
+            "image":"https://cb.scene7.com/is/image/Crate/InstantVPlD8qSSAFCCSSS22_VND/$web_pdp_main_carousel_high$/220209165618/instant-vortex-8q-dual-air-fryer.jpg"
+        },
+        {
+            "id":11,
+            "title":"Philips Premium Digital Basket Airfryer with Fat Removal Technology",
+            "category":"electronics",
+            "price":249.95,
+            "image":"https://cb.scene7.com/is/image/Crate/PhilipsPDAFrFtRmTchSSS21_VND/$web_pdp_main_carousel_high$/210916105307/philips-essential-digital-xl-air-fryer.jpg"
+        },
+        {
+            "id":12,
+            "title":"All-Clad © 7-Quart Deluxe Slow Cooker with Aluminum Insert",
+            "category":"electronics",
+            "price":279.95,
+            "image":"https://cb.scene7.com/is/image/Crate/AllClad7qtDlxSlwCkrWAlmInsSHS19/$web_pdp_main_carousel_high$/220913144039/all-clad-7-qt.-deluxe-slow-cooker-with-aluminum-insert.jpg"
+        },
+        {
+            "id":13,
+            "title":"Cuisinart ® Cook Central ® 6-Qt. 3-in-1 Multicooker",
+            "category":"electronics",
+            "price":159.95,
+            "image":"https://cb.scene7.com/is/image/Crate/Cuis6qt3in1MultiCookerSHF16/$web_pdp_main_carousel_high$/220913133316/cuisinart-6-qt.-3-in-1-multicooker.jpg"
+        },
+        {
+            "id":14,
+            "title":"Cuisinart ® Flip Belgian Waffle Maker",
+            "category":"electronics",
+            "price":59.95,
+            "image":"https://cb.scene7.com/is/image/Crate/CuisRdFlpBlgnWffMkrSSS21_VND/$web_pdp_main_carousel_high$/210622120456/cuisinart-flip-belgian-waffle-maker.jpg"
+        },
+        {
+            "id":15,
+            "title":"Breville ® 4-Slice Smart ™ Waffle Maker",
+            "category":"electronics",
+            "price":219.95,
+            "image":"https://cb.scene7.com/is/image/Crate/BrevilleSmrtWffl4slAVSSS21_VND/$web_pdp_main_carousel_high$/201211124349/breville-smart-waffler-4-slice.jpg"
+        },
+        {
+            "id":16,
+            "title":"Dash ® White Mini Waffle Maker",
+            "category":"electronics",
+            "price":12.95,
+            "image":"https://cb.scene7.com/is/image/Crate/DashMiniWaffleMakerWhtSHF16/$web_pdp_main_carousel_high$/220913133611/dash-white-mini-waffle-maker.jpg"
+        },
+        {
+            "id":17,
+            "title":"Breville ® Panini Duo ™ Sandwich Press",
+            "category":"electronics",
+            "price":89.95,
+            "image":"https://cb.scene7.com/is/image/Crate/BrevilleDuoPaniniPressSHF16/$web_pdp_main_carousel_high$/220913133549/breville-duo-panini-press.jpg"
+        },
+        {
+            "id":18,
+            "title":"Wolf Gourmet Precision Griddle",
+            "category":"electronics",
+            "price":649.95,
+            "image":"https://cb.scene7.com/is/image/Crate/WolfGrmtPrecisioGriddleSHS20/$web_pdp_main_carousel_high$/191022162321/sd-wolf-gourmet-precision-griddle.jpg"
+        },
+        {
+            "id":19,
+            "title":"Smeg Full-Size Black Right-Hinge Refrigerator",
+            "category":"electronics",
+            "price":2499.95,
+            "image":"https://cb.scene7.com/is/image/Crate/SmegFlSzFridgeRHBlkSSF21_VND/$web_pdp_main_carousel_high$/220119162801/smeg-full-size-black-right-hinge-refrigerator.jpg"
+        },
+        {
+            "id":20,
+            "title":"GE Profile ™ Opal ™ 2.0 Black Stainless Nugget Ice Maker with Side Tank",
+            "category":"electronics",
+            "price":649.95,
+            "image":"https://cb.scene7.com/is/image/Crate/GEPOp2pNgIcMkSdTkBSSSF21_VND/$web_pdp_main_carousel_high$/211028143451/ge-profile-opal-2.0-black-stainless-nugget-ice-maker-with-side-tank.jpg"
+        }
+    ],
+    "lighting":
+    [
+        {
+            "id":1,
+            "title":"Nolan Square Black Glass Pendant Light",
+            "category":"lights",
+            "price":399.00,
+            "image":"https://cb.scene7.com/is/image/Crate/NolanSqGlassPendantBlkSSF22/$web_pdp_main_carousel_high$/220321095349/nolan-square-pendant-black.jpg"
+        },
+        {
+            "id":2,
+            "title":"Luka Petite Directional Floor Lamp",
+            "category":"lights",
+            "price":299.00,
+            "image":"https://cb.scene7.com/is/image/Crate/LukaPtDrctnlFloorLampPwtrSSF22/$web_pdp_main_carousel_high$/220302173302/luka-floor-lamp-pewter.jpg"
+        },
+        {
+            "id":3,
+            "title":"Seri Jute Pendant Light",
+            "category":"lights",
+            "price":349.00,
+            "image":"https://cb.scene7.com/is/image/Crate/SeriKnitRafiaPendantSSS22/$web_pdp_main_carousel_high$/211119112759/seri-knit-rafia-pendant.jpg"
+        },
+        {
+            "id":4,
+            "title":"Esphera Wall Sconce",
+            "category":"lights",
+            "price":149.00,
+            "image":"https://cb.scene7.com/is/image/Crate/EsperaSconceROS22/$web_pdp_main_carousel_high$/230118123004/EsperaSconceROS22.jpg"
+        },
+        {
+            "id":5,
+            "title":"Aiden Ribbed Glass Brass Linear Pendant Light",
+            "category":"lights",
+            "price":699.00,
+            "image":"https://cb.scene7.com/is/image/Crate/AidenRbdGlsKtchLnPndBrsSSF22/$web_pdp_main_carousel_high$/221027142256/aiden-ribbed-glass-brass-linear-pendant-light.jpg"
+        },
+        {
+            "id":6,
+            "title":"Andre White and Brass Cone Pendant Light",
+            "category":"lights",
+            "price":299.00,
+            "image":"https://cb.scene7.com/is/image/Crate/AndreWhtMtlConePndntROF22/$web_pdp_main_carousel_high$/230118123111/AndreWhtMtlConePndntROF22.jpg"
+        },
+        {
+            "id":7,
+            "title":"Noon Black Wicker Floor Lamp by Leanne Ford",
+            "category":"lights",
+            "price":449.00,
+            "image":"https://cb.scene7.com/is/image/Crate/NoonSingerBlkWckrFlrLampSSS22/$web_pdp_main_carousel_high$/220503104254/noon-black-wicker-floor-lamp-by-leanne-ford.jpg"
+        },
+        {
+            "id":8,
+            "title":"Folie Brass Square Floor Lamp with Drum Shade",
+            "category":"lights",
+            "price":399.00,
+            "image":"https://cb.scene7.com/is/image/Crate/FolieFloorLampBrsROS22/$web_pdp_main_carousel_high$/230118122634/FolieFloorLampBrsROS22.jpg"
+        },
+        {
+            "id":9,
+            "title":"Finley Wooden Adjustable Floor Lamp",
+            "category":"lights",
+            "price":329.00,
+            "image":"https://cb.scene7.com/is/image/Crate/FinleyAdjFloorLampROF22/$web_pdp_main_carousel_high$/230118122107/FinleyAdjFloorLampROF22.jpg"
+        },
+        {
+            "id":10,
+            "title":"Salem Tripod Table Lamp",
+            "category":"lights",
+            "price":149.00,
+            "image":"https://cb.scene7.com/is/image/Crate/SalemAngledTripodTblLmpSSF22/$web_pdp_main_carousel_high$/220325163410/salem-angled-tripod-table-lamp.jpg"
+        },
+        {
+            "id":11,
+            "title":"Bibelot Wavy Black Metal Mini Table Lamp with Rattan Shade by Athena Calderone",
+            "category":"lights",
+            "price":129.00,
+            "image":"https://cb.scene7.com/is/image/Crate/TheBibelotMiniTableLampSSF22/$web_pdp_main_carousel_high$/220620164356/the-bibelot-wavy-black-metal-mini-table-lamp-with-rattan-shade-by-athena-calderone.jpg"
+        },
+        {
+            "id":12,
+            "title":"Salem Tripod Table Lamp",
+            "category":"lights",
+            "price":149.00,
+            "image":"https://cb.scene7.com/is/image/Crate/SalemAngledTripodTblLmpSSF22/$web_pdp_main_carousel_high$/220325163410/salem-angled-tripod-table-lamp.jpg"
+        },
+        {
+            "id":13,
+            "title":"Corfu Black Table Lamp with Linen Drum Shade",
+            "category":"lights",
+            "price":299.00,
+            "image":"https://cb.scene7.com/is/image/Crate/CorfuGryTblLmpDrumShdSSS22/$web_pdp_main_carousel_high$/220915151345/corfu-grey-drum-shade.jpg"
+        },
+        {
+            "id":14,
+            "title":"Seguin Brushed Nickel Single-Light Plug In Wall Sconce",
+            "category":"lights",
+            "price":89.00,
+            "image":"https://cb.scene7.com/is/image/Crate/CorfuGryTblLmpDrumShdSSS22/$web_pdp_main_carousel_high$/220915151345/corfu-grey-drum-shade.jpg"
+        },
+        {
+            "id":15,
+            "title":"Shinola Utility Black Wood Wall Sconce",
+            "category":"lights",
+            "price":99.97,
+            "image":"https://cb.scene7.com/is/image/Crate/UtilityBlackWoodSconceROF21/$web_pdp_main_carousel_high$/210423161517/shinola-utility-black-wood-wall-sconce.jpg"
         }
     ]
 }
