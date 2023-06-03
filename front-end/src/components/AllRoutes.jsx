@@ -6,6 +6,7 @@ import SingleProduct from "../pages/SingleProduct";
 import Cart from "../pages/Cart";
 import Payment from "../pages/Payment";
 import PrivateRoute from "./PrivateRoute";
+import Checkout from "../pages/Checkout";
 
 export default function AllRoutes(){
     return <Routes>
@@ -15,5 +16,6 @@ export default function AllRoutes(){
         <Route path="/products/:id" element={<PrivateRoute><SingleProduct/></PrivateRoute>}></Route>
         <Route path="/cart" element={<PrivateRoute><Cart/></PrivateRoute>}></Route>
         <Route path="/payment" element={<PrivateRoute><Payment/></PrivateRoute>}></Route>
+        <Route path="/checkout" element={<PrivateRoute><Checkout/></PrivateRoute>}></Route>
     </Routes>
 }

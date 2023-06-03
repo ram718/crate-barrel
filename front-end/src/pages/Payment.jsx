@@ -40,7 +40,7 @@ function Payment() {
                 </Box>
                 <Box justifyContent={"space-evenly"}>
                     <Link to="/"><Button backgroundColor={"black"} padding="1%" marginBottom={"2%"} color="white">Got to Home</Button></Link>
-                    <Link to="/products"><Button backgroundColor={"black"} padding="1%" marginBottom={"2%"} marginLeft={"2%"} color="white">Pick up from our nearest store 📍</Button></Link>
+                    {/* <Link to="/products"><Button backgroundColor={"black"} padding="1%" marginBottom={"2%"} marginLeft={"2%"} color="white">Pick up from our nearest store 📍</Button></Link> */}
                 </Box> 
                 <Box style={{backgroundColor:"black",color:"white"}}>
                     <Footer/>

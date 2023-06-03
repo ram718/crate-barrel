@@ -126,7 +126,7 @@ export default function Cart() {
           <br />
           <Text textTransform={'uppercase'} fontWeight="bold" fontSize="xl">total : $ {getTotalPrice} USD</Text>
           <br />
-          <Link to="/payment"><Button style={{color:"black"}}>Proceed to Payment</Button></Link>
+          <Link to="/checkout"><Button style={{color:"black"}}>Proceed to Payment</Button></Link>
         </Box>
       </div>
 

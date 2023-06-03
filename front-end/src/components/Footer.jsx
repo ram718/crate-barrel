@@ -48,7 +48,7 @@ const ListHeader = ({children}) => {
 // };
 
 export default function Footer() {
-  return <Box style={{padding:"20px 2% 0 4%"}}>
+  return <Box style={{padding:"20px 2% 0 4%",backgroundColor:"black",color:"whitesmoke"}}>
     <Box
       bg={useColorModeValue('black.50', 'black.900')}
       color={useColorModeValue('black.700', 'black.200')}>
